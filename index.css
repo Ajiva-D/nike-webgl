@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	font-family: "Bebas Neue", sans-serif;
+}
+.hero {
+	height: calc(100vh - 104px);
+}
+img {
+	width: 300px;
+	height: 300px;
+	object-fit: contain;
+	opacity: 0;
+}
+#container {
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	left: 0;
+}
+
